@@ -142,6 +142,12 @@ export const BookmarkManagerClient: React.FC<BookmarkManagerClientProps> = ({
         />
 
         <SidebarInset className="flex-1">
+          {/* プレビューバナー */}
+          <div className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-6 py-2 text-center text-sm">
+            🚀
+            これはプレビュー版です。実際の機能はダミーデータで動作しています。
+          </div>
+
           {/* ヘッダー */}
           <header className="flex shrink-0 items-center justify-between p-6 bg-white">
             <div className="flex items-center gap-4">
